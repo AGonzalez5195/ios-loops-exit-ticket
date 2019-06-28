@@ -2,13 +2,6 @@
 
 ## Instructions for lab submission
 
-1. Fork the assignment repo
-1. Clone your Fork to your machine
-1. Complete the lab
-1. Push your changes to your Fork
-1. Submit a Pull Request back to the assignment repo
-1. Paste a link to of your Fork on Canvas and submit
-
 ## Question 1
 
 What will the code below print?
@@ -26,8 +19,8 @@ for number in 4..<8{
 
 print(myNum)
 ```
+The code looks through the range of 4-8, with 8 not being included. It then breaks the loop for the number 7. For the other numbers, which are 4, 5, and 6, the else statement then adds them to the myNum variable, 8. 4 + 5 + 6 = 15. 15 is then added to 8, which results in 23.
 
-***
 ## Question 2
 
 Which of the following loops will print out all the numbers between 1 and 100, inclusive?  Select all that apply.
@@ -60,6 +53,8 @@ for l in 1...100 where _ < 101 {
 }
 ```
 
+B is correct.
+C is correct
 ***
 ## Question 3
 
@@ -72,7 +67,7 @@ for _ in 1...10{
     }
 }
 ```
-
+100
 ***
 ## Question 4
 
@@ -82,9 +77,9 @@ a)
 ```swift
 var q = 0
 
-while q%2 != 1 {
+while q % 2 != 1 {
     print("Hello Problem Two!")
-    q += 2
+    q += 2 
 }
 ```
 
@@ -117,5 +112,7 @@ while t == t{
     t += 1
 }
 ```
-
+a is an infinite loop
+b is an infinite loop
+d is an infinite loop
 ***
