@@ -113,6 +113,5 @@ while t == t{
 }
 ```
 a is an infinite loop
-b is an infinite loop
 d is an infinite loop
 ***
